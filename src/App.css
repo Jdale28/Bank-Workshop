@@ -30,3 +30,19 @@
     transform: rotate(360deg);
   }
 }
+
+.transactionHeader {
+  text-align: center;
+}
+
+.credits, .debits {
+  margin: 2vw;
+}
+
+.creditContainer, .debitContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw; 
+}

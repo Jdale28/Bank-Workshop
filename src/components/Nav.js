@@ -13,6 +13,12 @@ class Nav extends Component {
             <Link to="/login">Login</Link>
           </li>
           <li>
+            <Link to="/profile/debits">Debits</Link>
+          </li>
+          <li>
+            <Link to="/profile/credits">Credits</Link>
+          </li>
+          <li>
             <Link to="/home">Home</Link>
           </li>
         </ul>
